@@ -23,6 +23,6 @@ require('lazy').setup({
     require 'plugins.lualine',
     require 'plugins.tmux',
     require 'plugins.treesitter',
-    require 'plugins.whichkey'
+    require 'plugins.whichkey',
 })
 

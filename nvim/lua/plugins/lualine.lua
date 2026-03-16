@@ -43,7 +43,9 @@ return {
     require('lualine').setup {
       options = {
         icons_enabled = true,
-        theme = kanagawa_paper, -- Set theme based on environment variable
+        --theme = kanagawa_paper, -- Set theme based on environment variable
+        theme = 'gruvbox-material', -- Set theme based on environment variable
+
         -- Some useful glyphs:
         -- https://www.nerdfonts.com/cheat-sheet
         --        

@@ -1,5 +1,6 @@
 {
   "arrow.nvim": { "branch": "master", "commit": "6e0f726f55f99332dd726a53effd6813786b6d49" },
+  "gruvbox-material": { "branch": "master", "commit": "790afe9dd085aa04eccd1da3626c5fa05c620e53" },
   "kanagawa-paper.nvim": { "branch": "master", "commit": "3a024e8fd7105ee9416aafcdb0a7787be1795d68" },
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
   "lualine.nvim": { "branch": "master", "commit": "47f91c416daef12db467145e16bed5bbfe00add8" },
