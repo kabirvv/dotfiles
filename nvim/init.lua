@@ -22,6 +22,7 @@ require('lazy').setup({
     require 'plugins.arrow',
     require 'plugins.statusline',
     require 'plugins.tmux',
-    require 'plugins.treesitter'
+    require 'plugins.treesitter',
+    require 'plugins.whichkey'
 })
 
