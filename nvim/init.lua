@@ -20,7 +20,7 @@ require('lazy').setup({
    	require 'plugins.colorscheme',
     require 'plugins.snacks',
     require 'plugins.arrow',
-    require 'plugins.statusline',
+    require 'plugins.lualine',
     require 'plugins.tmux',
     require 'plugins.treesitter',
     require 'plugins.whichkey'
