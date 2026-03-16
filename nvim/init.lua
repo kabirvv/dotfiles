@@ -21,6 +21,7 @@ require('lazy').setup({
     require 'plugins.snacks',
     require 'plugins.arrow',
     require 'plugins.statusline',
-    require 'plugins.tmux'
+    require 'plugins.tmux',
+    require 'plugins.treesitter'
 })
 
