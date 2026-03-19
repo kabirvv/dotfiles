@@ -14,7 +14,7 @@ return {
             })
       end,
       init = function()
-        vim.cmd.colorscheme("kanagawa-paper-ink")
+          -- vim.cmd.colorscheme("kanagawa-paper-ink")
       end
     },
 
@@ -32,7 +32,22 @@ return {
       end,
       opts = {},
       init = function() 
-        -- vim.cmd.colorscheme('gruvbox-material')
+          -- vim.cmd.colorscheme('gruvbox-material')
       end
+    },
+    { 
+        "catppuccin/nvim", 
+        name = "catppuccin", 
+        priority = 1000 ,
+        init = function () 
+            vim.cmd.colorscheme('catppuccin-macchiato')
+        end
+    },
+    {
+    	"rose-pine/neovim",
+    	name = "rose-pine",
+    	config = function()
+    		-- vim.cmd("colorscheme rose-pine")
+    	end
     }
 }

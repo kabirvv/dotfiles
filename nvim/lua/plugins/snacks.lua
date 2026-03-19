@@ -10,7 +10,11 @@ return {
     indent = { enabled = true },
     input = { enabled = true },
     git = { enabled = true },
+    lazygit = {
+            enabled = true
+    },
     gh = { enabled = true },
+    terminal = { enabled = true },
     notifier = {
       enabled = true,
       timeout = 3000,

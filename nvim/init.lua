@@ -24,5 +24,8 @@ require('lazy').setup({
     require 'plugins.tmux',
     require 'plugins.treesitter',
     require 'plugins.whichkey',
+    require 'plugins.lsp.coc',
+    require 'plugins.blink',
+    require 'plugins.noice'
 })
 
